@@ -4,7 +4,7 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const auth= require('../middleware/auth');
 const admin = require('../middleware/admin');
-const superAdmin = require('../middleware/superadmin');
+const superAdmin = require('../middleware/superAdmin');
  
 //check if ID is valid
 const validateId = (id,res) => {
